@@ -1,0 +1,50 @@
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    padding-top: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+nav h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: orange;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 10px 0;
+    gap: 24px;
+}
+
+nav ul li {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav ul li:hover {
+    color: orange;
+}
+
+nav img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+nav img:hover {
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+
+}
