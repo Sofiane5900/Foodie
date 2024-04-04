@@ -12,7 +12,7 @@ const Navbar = () => {
             <li>Témoignages</li>
             <li>Contact</li>
             <img src={shop} alt="shop icon" />
-            <button>Réservez</button>
+            <button className='btn'>Réservez</button>
         </ul>
     </nav>
 
