@@ -4,7 +4,7 @@ import shop from '../../assets/shop.png'
 
 const Navbar = () => {
   return (
-    <nav className='container'>
+    <nav>
         <h1>FOODIE</h1>
         <ul>
             <li>Accueil</li>
