@@ -1,0 +1,50 @@
+.testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    margin: 60px auto;
+    padding: 50px 0;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+
+}
+
+.testimonials:hover {
+    transform: translateY(-10px);
+}
+
+.avatar {
+    border: orange solid 2px;
+    border-radius: 50%;
+}
+
+.testimonials p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.stars img {
+    width: 30px;
+    height: 30px;
+}
+
+.testimonials h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #505050;
+    margin-top: 20px;
+}

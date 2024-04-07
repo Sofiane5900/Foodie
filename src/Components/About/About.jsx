@@ -19,7 +19,7 @@ const About = () => {
                      les tissus et les organes, tout en jouant un rôle crucial dans le maintien d'un poids santé et la prévention des maladies.</p>
                      <div className="about-right-buttons"> 
                       <button className='btn'>En savoir plus</button>
-                      <button className='watch-video'><img src={PlayButton} alt="" />Regarder une vidéo</button>
+                      <button className='watch-video'><img src={PlayButton} alt=""/>Regarder une vidéo</button>
                     </div>
 
 
