@@ -1,0 +1,39 @@
+
+.about {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1500px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+}
+
+.about-left img {
+    width: 400px;
+    height: 400px;
+}
+
+.about-right {
+    padding-left: 50px;
+}
+
+.about-right h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+
+.about-right p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-right-buttons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

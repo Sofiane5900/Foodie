@@ -23,13 +23,56 @@ h1 {
   font-family: 'Reem Kufi', sans-serif;
 }
 
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 73.14px;
+  text-align: center;
+  color: #4C4C4C;
+}
+
+h4 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30.48px;
+  text-align: center;
+  color: #828282;
+
+}
+
 .btn {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   background-color: orange;
-  color: black;
+  color: white;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ff8c00;
+}
+
+.watch-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: #515151;
+}
+
+.watch-video:hover {
+  color: #777777;
+}
+
+.watch-video img {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
 }

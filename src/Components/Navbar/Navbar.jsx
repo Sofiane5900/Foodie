@@ -3,9 +3,19 @@ import './Navbar.css'
 import shop from '../../assets/shop.png'
 
 const Navbar = () => {
+
+  const [sticky, setSticky] = React.useState(false);
+
+  React.useEffect(() => {
+      window.addEventListener("scroll", () => {
+          window.scrollY > 50 ? setSticky(true) : setSticky(false);
+      });
+  }, []);
+
+
   return (
-    <nav>
-        <h1>FOODIE</h1>
+    <nav className={`container ${sticky? 'orange-nav' : '' }`}>
+    <h1>FOODIE</h1>
         <ul>
             <li>Accueil</li>
             <li>A propos</li>
