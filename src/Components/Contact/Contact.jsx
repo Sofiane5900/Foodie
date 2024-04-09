@@ -1,4 +1,5 @@
 import React from 'react'
+import './Contact.css'
 
 const Contact = () => {
   return (
@@ -7,7 +8,7 @@ const Contact = () => {
 
         <div className='contact-container'>
                 <input className="contact" type="text" placeholder="votremail@gmail.com" /> 
-                <button className='btn'>Envoyez</button>
+                <button className='secondary-btn'>Envoyez</button>
             </div>
     </div>
   )
